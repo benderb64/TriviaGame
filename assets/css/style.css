@@ -1,0 +1,11 @@
+body {
+    background-image: url("../images/moon\ pyramid.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 780px;
+    font-family: 'IM Fell DW Pica SC', serif;
+    
+}
+
+#jumbotron {
+    text-align: center;
+}

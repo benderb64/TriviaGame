@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
+</head>
+<body>
+    <div id="jumbotron">
+        <header>
+            <h1>Trivia Game</h1>
+            <p>Test Your Knowledge in <strong>Egyptian Mythology</strong></p>
+        
+    </div>
+        </header>
+        <section>
+            <div id = "results"></div>
+            <form name= "quizForm" onsubmit=" return submitAnswers()">
+            <h3>1. Who was the first Egyptian Diety?</h3>
+            <input type="radio" name= "q1" value="a" id="q1a"><b>a. Thor</b><br>
+            <input type="radio" name= "q2" value="b" id="q2b"><b>b. Shu</b><br>
+            <input type="radio" name= "q3" value="c" id="q3c"><b>c. Atum</b><br>
+            <input type="radio" name= "q4" value="d" id="q4d"><b>d. Isis</b><br>
+
+            <h3>2. Who was considered the Egyptian Sun Diety?</h3>
+            <input type="radio" name= "q1" value="a" id="q1a"><b>a. Ra</b><br>
+            <input type="radio" name= "q2" value="b" id="q2b"><b>b. Horus</b><br>
+            <input type="radio" name= "q3" value="c" id="q3c"><b>c. Osiris</b><br>
+            <input type="radio" name= "q4" value="d" id="q4d"><b>d. Bes</b><br>
+
+            <h3>3. Who was known as the warrior goddess?</h3>
+            <input type="radio" name= "q1" value="a" id="q1a"><b>a. Ptah</b><br>
+            <input type="radio" name= "q2" value="b" id="q2b"><b>b. Sekhmet</b><br>
+            <input type="radio" name= "q3" value="c" id="q3c"><b>c. Aries</b><br>
+            <input type="radio" name= "q4" value="d" id="q4d"><b>d. Seshat</b><br>
+
+            <h3>4. Which Diety was the wife of Osiris?</h3>
+            <input type="radio" name= "q1" value="a" id="q1a"><b>a. Bastet</b><br>
+            <input type="radio" name= "q2" value="b" id="q2b"><b>b. Isis</b><br>
+            <input type="radio" name= "q3" value="c" id="q3c"><b>c. Tefnut</b><br>
+            <input type="radio" name= "q4" value="d" id="q4d"><b>d. Hathor</b><br>
+            <br><br>
+            <input type="button" value ="submit" onclick="check()">
+            
+            </form>
+
+        </section>
+       
+
+        
+        
+
+
+
+    
+
+      
+</body>
+<script src="./assets/javascript/app.js"></script>
+</html>
